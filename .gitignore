@@ -1,0 +1,49 @@
+# ============================
+# EQEmu Custom .gitignore
+# ============================
+
+# --- Binaries ---
+*.exe
+*.dll
+*.pdb
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Backups & Database Dumps ---
+backups/
+*.sql
+*.sql.gz
+*.bak
+
+# --- EQ Client Files (never commit client assets) ---
+client/
+*.s3d
+*.eqg
+*.pak
+
+# --- Build Artifacts (if compiling EQEmu) ---
+build/
+cmake-build*/
+CMakeFiles/
+CMakeCache.txt
+
+# --- Server-Generated Data ---
+shared/
+maps/standard/
+quests/cache/
+plugins/cache/
+
+# --- Sensitive Config Files ---
+*.ini
+*.cfg
+
+# --- Windows Junk Files ---
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.swp
