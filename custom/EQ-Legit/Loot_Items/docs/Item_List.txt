@@ -1,0 +1,29 @@
+EQ‑Legit — Loot Items Module
+Item List
+
+This file lists all legacy items restored through NPC loot tables. Each item
+includes its classic drop source and its modernized EQ-Legit drop rate tier.
+
+Example entries:
+
+Rubicite Armor Set
+- Breastplate .......... 2.5%
+- Greaves .............. 5%
+- Gauntlets ............ 5%
+- Helm ................. 5%
+- Vambraces ............ 10%
+- Bracers .............. 15%
+- Mask ................. 5%
+- Pauldron ............. 5%
+- Collar ............... 10%
+- Waistband ............ 10%
+
+Singing Steel (Classic)
+- Greaves .............. 5%
+- Vambraces ............ 10%
+- Bracers .............. 15%
+- Helm ................. 5%
+- Gauntlets ............ 5%
+
+Additional legacy loot items are documented in the SQL files and restored
+according to the EQ-Legit rarity rules.

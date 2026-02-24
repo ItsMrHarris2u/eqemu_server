@@ -1,0 +1,26 @@
+EQ‑Legit — Orphan Items Module
+NPC List
+
+This file lists all NPCs restored or recreated to support orphaned legacy item
+drops. These NPCs were removed from the database in later revisions and have
+been rebuilt using classic-era data.
+
+Restored NPCs:
+
+a_mosquito (ID 700001)
+- Level: 18
+- Zone: Cazic-Thule
+- Role: Rubicite dropper (minor)
+
+a_bloodthirsty_mosquito (ID 700002)
+- Level: 20
+- Zone: Cazic-Thule
+- Role: Rubicite dropper (moderate)
+
+a_giant_mosquito (ID 700003)
+- Level: 22
+- Zone: Cazic-Thule
+- Role: Rubicite dropper (major)
+
+These NPCs were removed from modern EQEmu databases but existed in classic
+Cazic-Thule as ambient threats and secondary Rubicite sources.

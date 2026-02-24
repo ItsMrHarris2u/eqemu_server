@@ -1,13 +1,20 @@
-# EQ‑Legit — EverQuest Legacy Item Restoration Project  
-## Legacy Items Module
+# EQ‑Legit — Loot Items Module
+## Restoration of Loot‑Based Legacy Items
 
-The **Legacy Items Module** restores a curated set of classic EverQuest items
-that were removed, nerfed, or made unobtainable in modern EQEmu databases.
-This module focuses on meaningful, iconic drops that enhance solo-friendly,
-time-realistic gameplay while preserving classic flavor.
+The Loot Items Module restores all legacy items originally obtained through NPC
+loot tables. These items were removed, deprecated, or altered in later EQEmu
+database revisions, resulting in broken or missing classic-era drop paths.
 
-This module was originally known as **C‑Lite**, but has been renamed and
-standardized under the EQ‑Legit project structure.
+This module reintroduces:
+- Classic loot-based legacy items
+- Correct NPC drop sources
+- Normalized EQ‑Legit rarity tiers (2.5% / 5% / 10% / 15%)
+- Clean, modular SQL using the universal 01–10 structure
+- Fully documented item, NPC, and spawn data
+
+The Loot Items Module does not modify quests or rebuild missing NPC ecosystems.
+It focuses exclusively on restoring loot-based legacy items in a historically
+authentic and solo-friendly manner.
 
 
 ## 🎯 Purpose

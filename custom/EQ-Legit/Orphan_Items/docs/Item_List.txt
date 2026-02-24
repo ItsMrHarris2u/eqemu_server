@@ -1,0 +1,23 @@
+EQ‑Legit — Orphan Items Module
+Item List
+
+This file lists all legacy items restored by rebuilding missing NPCs or
+mechanics. These items originally dropped from NPCs that were removed from the
+database, leaving the items orphaned.
+
+Current restored orphan items:
+
+Rubicite Armor Set (Mosquito Variant)
+- Breastplate .......... 2.5%
+- Greaves .............. 5%
+- Gauntlets ............ 5%
+- Helm ................. 5%
+- Vambraces ............ 10%
+- Bracers .............. 15%
+- Mask ................. 5%
+- Pauldron ............. 5%
+- Collar ............... 10%
+- Waistband ............ 10%
+
+Additional orphaned items will be added as new missing NPC ecosystems are
+identified and restored.

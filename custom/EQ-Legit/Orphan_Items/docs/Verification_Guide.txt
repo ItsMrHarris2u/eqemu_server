@@ -1,0 +1,40 @@
+EQ‑Legit — Orphan Items Module
+Verification Guide
+
+This guide explains how to verify that the Orphan Items Module is correctly
+installed and functioning.
+
+Step 1 — Verify NPC Types
+SELECT id, name FROM npc_types
+WHERE id BETWEEN 700001 AND 700003;
+
+Step 2 — Verify Spawns
+SELECT id, npc_id, x, y, z
+FROM spawn2
+WHERE npc_id BETWEEN 700001 AND 700003
+ORDER BY id;
+
+Step 3 — Verify Lootdrops
+SELECT id, name FROM lootdrop
+WHERE id = 940001;
+
+Step 4 — Verify Lootdrop Entries
+SELECT lootdrop_id, item_id, chance
+FROM lootdrop_entries
+WHERE lootdrop_id = 940001;
+
+Step 5 — Verify Loottables
+SELECT id, name FROM loottable
+WHERE id = 950001;
+
+Step 6 — Verify NPC Wiring
+SELECT npc_id, loottable_id
+FROM npc_loot
+WHERE loottable_id = 950001;
+
+Step 7 — In-Game Testing
+- Confirm mosquito NPCs spawn in CT
+- Kill restored mosquitoes
+- Verify Rubicite drops at expected rarity
+
+If all checks pass, the Orphan Items Module is fully operational.

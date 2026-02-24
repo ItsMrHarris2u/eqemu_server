@@ -1,0 +1,17 @@
+EQ‑Legit — Orphan Items Module
+Restoration Flow
+
+This file explains how orphaned legacy items are restored through the
+reconstruction of missing NPCs and their associated loot systems.
+
+Restoration Flow Summary:
+1. Identify legacy items with no valid drop source in the current database.
+2. Determine the original NPCs or mechanics responsible for the item.
+3. Rebuild missing NPCs using classic-era stats, levels, and behavior.
+4. Restore classic spawn locations and timers.
+5. Create or restore loottables and lootdrops for the orphaned items.
+6. Apply EQ-Legit rarity tiers to ensure balanced, solo-friendly acquisition.
+7. Validate all NPC wiring and drop logic using 10_verification.sql.
+
+This flow preserves classic authenticity while ensuring orphaned legacy items
+remain obtainable in a fair and consistent manner.

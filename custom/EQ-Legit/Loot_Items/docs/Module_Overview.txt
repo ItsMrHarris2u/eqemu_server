@@ -1,0 +1,18 @@
+EQ‑Legit — Loot Items Module
+Module Overview
+
+The Loot Items Module restores all legacy items that were originally obtained
+through NPC loot tables. These items were removed, deprecated, or altered in
+later database revisions, resulting in broken drop ecosystems and missing
+classic-era loot paths.
+
+This module reintroduces:
+- All loot-based legacy items from the EQ-Legit master list
+- Correct classic NPC drop sources
+- Clean, normalized drop rates using the EQ-Legit rarity tiers
+- Modular SQL using the universal 01–10 structure
+- Documentation for long-term maintainability
+
+The Loot Items Module does not modify quests, scripts, or faction systems.
+It focuses exclusively on restoring loot-based legacy items in a clean,
+authentic, and solo-friendly manner.

@@ -1,0 +1,19 @@
+EQ‑Legit — Loot Items Module
+Loot Flow
+
+This file explains how legacy loot is restored and how players obtain items
+through the modernized EQ-Legit system.
+
+Loot Flow Summary:
+1. Identify classic-era NPCs that originally dropped the legacy item.
+2. Restore the item to the correct NPC loottable.
+3. Apply EQ-Legit rarity tiers:
+   - 2.5% (ultra-rare)
+   - 5% (rare)
+   - 10% (uncommon)
+   - 15% (common legacy)
+4. Ensure no NPC exceeds one legacy drop per kill.
+5. Validate all loottable links using 10_verification.sql.
+
+This flow preserves classic authenticity while ensuring solo-friendly,
+time-realistic acquisition.

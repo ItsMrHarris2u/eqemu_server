@@ -1,0 +1,23 @@
+EQ‑Legit — Loot Items Module
+NPC List
+
+This file lists all NPCs that have had legacy loot restored to their
+loottables. Only NPCs that originally dropped legacy items in classic EverQuest
+are included.
+
+Example NPC entries:
+
+Lower Guk — Frenzied Ghoul
+- Drops: Rubicite Armor (select pieces)
+- Drop Tier: 2.5%–15%
+
+Lower Guk — Ghoul Lord
+- Drops: Singing Steel (select pieces)
+- Drop Tier: 5%–15%
+
+Cazic-Thule — Lizard Crusaders
+- Drops: Rubicite (historical variants)
+- Drop Tier: 5%–10%
+
+This module does not add new NPCs; it restores loot to existing classic NPCs
+based on historical accuracy and EQ-Legit rarity standards.

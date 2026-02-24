@@ -1,0 +1,19 @@
+EQ‑Legit — Loot Items Module
+Spawn Map
+
+This file documents the zones and spawn locations relevant to restored legacy
+loot. Only NPCs whose loot tables were modified are included.
+
+Example zones:
+
+Lower Guk (Dead Side)
+- Frenzied Ghoul: Room 3, static spawn
+- Ghoul Lord: Throne Room, static spawn
+- Executioner: Pit area, static spawn
+
+Cazic-Thule
+- Lizard Crusaders: Outer temple, roaming
+- Lizard Zealots: Inner temple, static
+
+This module does not modify spawn points; it documents them for reference and
+verification.

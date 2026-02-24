@@ -1,20 +1,21 @@
-# EQ‑Legit — EverQuest Legacy Item Restoration Project  
-## CT Mosquito Restoration Module
+# EQ‑Legit — Orphan Items Module
+## Restoration of Legacy Items with Missing NPC Sources
 
-The **CT Mosquito Restoration Module** restores the classic mosquito ecosystem
-that originally populated the outer temple and swamp‑entry areas of Cazic‑Thule.
-These NPCs were removed in later database revisions, which also eliminated their
-ability to drop **Rubicite armor**, one of the most iconic classic item sets.
+The Orphan Items Module restores legacy items whose original drop sources no
+longer exist in modern EQEmu databases. These items were historically obtained
+from NPCs or mechanics that were removed, relocated, or overwritten, leaving
+the items without a valid acquisition path.
 
 This module reintroduces:
-- Classic mosquito NPCs  
-- Classic spawn locations  
-- Classic level ranges  
-- A unified Rubicite lootdrop  
-- Clean, modular SQL  
-- Zero interference with existing CT mobs  
+- Missing NPCs required for legacy item drops
+- Classic spawn locations and behavior
+- Correct loottables and drop rates
+- Clean, modular SQL using the universal 01–10 structure
+- Fully documented NPC, spawn, and loot relationships
 
-All content is fully isolated under the `/EQ-Legit/CT_Mosquitos/` directory.
+The Orphan Items Module does not modify quests or existing NPCs. It focuses
+exclusively on restoring missing NPC ecosystems required for orphaned legacy
+loot.
 
 
 ## 🧬 Restored NPCs

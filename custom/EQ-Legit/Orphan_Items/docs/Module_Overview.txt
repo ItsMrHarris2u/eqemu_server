@@ -1,0 +1,17 @@
+EQ‑Legit — Orphan Items Module
+Module Overview
+
+The Orphan Items Module restores legacy items whose original drop sources no
+longer exist in modern EQEmu databases. These items were historically obtained
+from NPCs or mechanics that were removed, relocated, or overwritten in later
+revisions, leaving the items without a valid acquisition path.
+
+This module reintroduces:
+- Missing NPCs required for legacy item drops
+- Classic spawn locations and behavior
+- Correct loottables and drop rates
+- Clean, modular SQL using the EQ-Legit 01–10 standard
+- Documentation for long-term maintainability
+
+The Orphan Items Module does not modify quests or existing NPCs. It focuses
+exclusively on restoring missing NPC ecosystems required for legacy loot.
