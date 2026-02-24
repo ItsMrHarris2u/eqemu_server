@@ -112,3 +112,22 @@ Plane of Fear
   Event-based spawn triggered by ritual turn-in.
   
   
+----------------------------------------
+Coldain/Iceclad Quest — Spawn Map
+----------------------------------------
+
+Iceclad Ocean
+
+- Coldain Emissary
+  Location: (3500, -2200, 5)
+  Respawn: Static
+
+- Iceclad Hermit
+  Location: (3650, -2400, 10)
+  Respawn: 20 minutes
+
+- Coldain Spirit
+  Location: (3400, -2100, 5)
+  Respawn: 6 minutes
+  
+  

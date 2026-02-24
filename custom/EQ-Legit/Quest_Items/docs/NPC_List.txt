@@ -110,3 +110,20 @@ Terror Shade (ID 720303)
 - Role: Ritual spawn and reward NPC.
 
 
+----------------------------------------
+Coldain/Iceclad Quest — NPC List
+----------------------------------------
+
+Coldain Emissary (ID 720401)
+- Zone: Iceclad Ocean
+- Role: Quest giver and final turn-in NPC.
+
+Iceclad Hermit (ID 720402)
+- Zone: Iceclad Ocean
+- Role: Drops the Iceclad Relic.
+
+Coldain Spirit (ID 720403)
+- Zone: Iceclad Ocean
+- Role: Provides lore and quest hints.
+
+

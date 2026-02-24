@@ -129,3 +129,24 @@ Terror Forged Mask (Legacy) (ID 720305)
 - Final reward for completing the ritual.
 
 
+----------------------------------------
+Coldain/Iceclad Quest — Item List
+----------------------------------------
+
+Coldain Insignia Fragment (ID 720401)
+- A fragment of a Coldain insignia.
+
+Iceclad Relic (ID 720402)
+- Dropped by the Iceclad Hermit.
+
+Frost-Etched Rune (ID 720403)
+- A rune etched with ancient Coldain magic.
+
+Blessed Coldain Seal (ID 720404)
+- A blessed seal used in Coldain rituals.
+
+Coldain Insignia (Legacy) (ID 720405)
+- The restored legacy insignia.
+- Final reward for completing the quest.
+
+

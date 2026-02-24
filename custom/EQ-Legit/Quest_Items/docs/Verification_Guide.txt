@@ -184,3 +184,39 @@ In-Game Verification
 If all steps succeed, the Summoning of Terror quest is fully restored.
 
 
+----------------------------------------
+Coldain/Iceclad Quest — Verification Steps
+----------------------------------------
+
+SQL Verification
+----------------
+1. Verify items:
+   SELECT id, name FROM items
+   WHERE id BETWEEN 720401 AND 720405;
+
+2. Verify NPCs:
+   SELECT id, name FROM npc_types
+   WHERE id BETWEEN 720401 AND 720403;
+
+3. Verify spawns:
+   SELECT npc_id, x, y, z FROM spawn2
+   WHERE npc_id BETWEEN 720401 AND 720403;
+
+4. Verify turn-ins:
+   SELECT * FROM quest_turnins
+   WHERE npc_id = 720401;
+
+5. Verify scripts:
+   SELECT * FROM npc_scripts
+   WHERE npc_id IN (720402, 720403);
+
+In-Game Verification
+--------------------
+1. Confirm all three NPCs spawn in Iceclad.
+2. Kill the Hermit and verify the relic drops.
+3. Turn in all four quest items to the Emissary.
+4. Confirm Coldain Insignia (Legacy) is rewarded.
+
+If all steps succeed, the Coldain/Iceclad quest is fully restored.
+
+

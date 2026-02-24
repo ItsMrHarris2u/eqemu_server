@@ -115,3 +115,25 @@ This flow restores the classic ritual using historically accurate NPCs,
 items, and event logic.
 
 
+----------------------------------------
+Coldain/Iceclad Quest — Quest Flow
+----------------------------------------
+
+1. Speak with the Coldain Emissary in Iceclad Ocean.
+   - He explains the need to recover lost Coldain relics.
+
+2. Defeat the Iceclad Hermit.
+   - Loot the Iceclad Relic (ID 720402).
+
+3. Acquire the remaining components:
+   - Coldain Insignia Fragment (ID 720401)
+   - Frost-Etched Rune (ID 720403)
+   - Blessed Coldain Seal (ID 720404)
+
+4. Return all four items to the Coldain Emissary.
+   - He restores the Coldain Insignia (Legacy) (ID 720405)
+
+This flow restores the classic Coldain relic quest using historically accurate
+NPCs, items, and dialogue.
+
+
