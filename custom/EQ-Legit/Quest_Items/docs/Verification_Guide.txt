@@ -110,3 +110,40 @@ In-Game Verification
 If all steps succeed, the Thex Mallet quest is fully restored.
 
 
+----------------------------------------
+Pirate Ship Quest — Verification Steps
+----------------------------------------
+
+SQL Verification
+----------------
+1. Verify items:
+   SELECT id, name FROM items
+   WHERE id BETWEEN 720201 AND 720205;
+
+2. Verify NPCs:
+   SELECT id, name FROM npc_types
+   WHERE id BETWEEN 720201 AND 720204;
+
+3. Verify spawns:
+   SELECT npc_id, x, y, z FROM spawn2
+   WHERE npc_id BETWEEN 720201 AND 720204;
+
+4. Verify turn-ins:
+   SELECT * FROM quest_turnins
+   WHERE npc_id = 720201;
+
+5. Verify scripts:
+   SELECT * FROM npc_scripts
+   WHERE npc_id IN (720201, 720202, 720204);
+
+In-Game Verification
+--------------------
+1. Confirm all pirate NPCs spawn on the ship.
+2. Kill the First Mate and verify the map drops.
+3. Trigger the pirate crew event via Nalot dialogue.
+4. Turn in all four quest items to Nalot.
+5. Confirm Nalot’s Cutlass (Legacy) is rewarded.
+
+If all steps succeed, the Pirate Ship Quest is fully restored.
+
+

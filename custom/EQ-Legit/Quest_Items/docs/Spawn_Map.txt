@@ -72,3 +72,25 @@ Nektulos Forest
 These placements reflect classic-era Thexian lore and support the restored quest.
 
 
+----------------------------------------
+Pirate Ship Quest — Spawn Map
+----------------------------------------
+
+Ocean of Tears — Pirate Ship
+
+- Captain Nalot
+  Location: (1200, -800, 15)
+  Respawn: Static
+
+- Pirate First Mate
+  Location: (1180, -820, 10)
+  Respawn: 16 minutes
+
+- Ghostly Navigator
+  Location: (1220, -780, 20)
+  Respawn: 6 minutes
+
+- Pirate Crewman
+  Event-based spawns triggered by Captain Nalot dialogue.
+  
+  

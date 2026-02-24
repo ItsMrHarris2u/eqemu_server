@@ -67,3 +67,25 @@ This flow restores the classic Thexian ritual using historically accurate NPCs,
 items, and dialogue.
 
 
+----------------------------------------
+Pirate Ship Quest — Quest Flow
+----------------------------------------
+
+1. Speak with Captain Nalot aboard the pirate ship.
+   - He requests relics of the sea to restore his legacy cutlass.
+
+2. Defeat the Pirate First Mate.
+   - Loot the Barnacle-Encrusted Map (ID 720203).
+
+3. Acquire the remaining components:
+   - Pirate Medallion (ID 720201)
+   - Salt-Blessed Compass (ID 720204)
+   - Ship Key (ID 720202)
+
+4. Return all four items to Captain Nalot.
+   - He rewards Nalot’s Cutlass (Legacy) (ID 720205).
+
+This quest restores the classic pirate ship storyline using historically accurate
+NPCs, items, and event logic.
+
+

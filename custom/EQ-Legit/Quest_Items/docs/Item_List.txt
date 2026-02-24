@@ -87,3 +87,24 @@ Thex Mallet (Legacy) (ID 720105)
 - Final reward for completing the quest.
 
 
+----------------------------------------
+Pirate Ship Quest — Item List
+----------------------------------------
+
+Pirate Medallion (ID 720201)
+- Initial quest token carried by pirates.
+
+Ship Key (ID 720202)
+- Opens Captain Nalot’s cabin.
+
+Barnacle-Encrusted Map (ID 720203)
+- Dropped by the Pirate First Mate.
+
+Salt-Blessed Compass (ID 720204)
+- A sacred compass used in the ritual.
+
+Nalot’s Cutlass (Legacy) (ID 720205)
+- The restored legacy cutlass.
+- Final reward for completing the quest.
+
+

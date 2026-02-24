@@ -72,3 +72,24 @@ Thexian Spirit (ID 720103)
 - Non-hostile dialogue NPC.
 
 
+----------------------------------------
+Pirate Ship Quest — NPC List
+----------------------------------------
+
+Captain Nalot (ID 720201)
+- Zone: Ocean of Tears
+- Role: Quest giver and final turn-in NPC.
+
+Pirate First Mate (ID 720202)
+- Zone: Ocean of Tears
+- Role: Drops the Barnacle-Encrusted Map.
+
+Pirate Crewman (ID 720203)
+- Zone: Ocean of Tears
+- Role: Event-based pirate spawns.
+
+Ghostly Navigator (ID 720204)
+- Zone: Ocean of Tears
+- Role: Provides lore and quest hints.
+
+
