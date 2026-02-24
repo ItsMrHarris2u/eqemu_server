@@ -131,3 +131,22 @@ Iceclad Ocean
   Respawn: 6 minutes
   
   
+----------------------------------------
+Shaman Epic Subquest — Spawn Map
+----------------------------------------
+
+Everfrost Peaks
+
+- Totemic Guide
+  Location: (-980, 600, -5)
+  Respawn: Static
+
+- Spiritbound Guardian
+  Location: (-1200, 450, -10)
+  Respawn: 18 minutes
+
+- Spiritbound Ancestor
+  Location: (-1180, 480, -10)
+  Respawn: 6 minutes
+  
+  

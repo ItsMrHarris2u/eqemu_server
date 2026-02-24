@@ -127,3 +127,20 @@ Coldain Spirit (ID 720403)
 - Role: Provides lore and quest hints.
 
 
+----------------------------------------
+Shaman Epic Subquest — NPC List
+----------------------------------------
+
+Totemic Guide (ID 720501)
+- Zone: Everfrost Peaks
+- Role: Quest giver and final turn-in NPC.
+
+Spiritbound Guardian (ID 720502)
+- Zone: Everfrost Peaks
+- Role: Drops the Spiritbound Relic.
+
+Spiritbound Ancestor (ID 720503)
+- Zone: Everfrost Peaks
+- Role: Provides lore and quest hints.
+
+

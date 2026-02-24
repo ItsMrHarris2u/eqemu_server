@@ -220,3 +220,39 @@ In-Game Verification
 If all steps succeed, the Coldain/Iceclad quest is fully restored.
 
 
+----------------------------------------
+Shaman Epic Subquest — Verification Steps
+----------------------------------------
+
+SQL Verification
+----------------
+1. Verify items:
+   SELECT id, name FROM items
+   WHERE id BETWEEN 720501 AND 720505;
+
+2. Verify NPCs:
+   SELECT id, name FROM npc_types
+   WHERE id BETWEEN 720501 AND 720503;
+
+3. Verify spawns:
+   SELECT npc_id, x, y, z FROM spawn2
+   WHERE npc_id BETWEEN 720501 AND 720503;
+
+4. Verify turn-ins:
+   SELECT * FROM quest_turnins
+   WHERE npc_id = 720501;
+
+5. Verify scripts:
+   SELECT * FROM npc_scripts
+   WHERE npc_id IN (720502, 720503);
+
+In-Game Verification
+--------------------
+1. Confirm all three NPCs spawn in Everfrost.
+2. Kill the Guardian and verify the relic drops.
+3. Turn in all four quest items to the Totemic Guide.
+4. Confirm Totemic Spirit Charm (Legacy) is rewarded.
+
+If all steps succeed, the Shaman Epic Subquest is fully restored.
+
+

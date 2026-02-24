@@ -137,3 +137,25 @@ This flow restores the classic Coldain relic quest using historically accurate
 NPCs, items, and dialogue.
 
 
+----------------------------------------
+Shaman Epic Subquest — Quest Flow
+----------------------------------------
+
+1. Speak with the Totemic Guide in Everfrost Peaks.
+   - He explains the need to recover ancestral relics.
+
+2. Defeat the Spiritbound Guardian.
+   - Loot the Spiritbound Relic (ID 720502).
+
+3. Acquire the remaining components:
+   - Totemic Fragment (ID 720501)
+   - Ancestral Totem (ID 720503)
+   - Blessed Spirit Oil (ID 720504)
+
+4. Return all four items to the Totemic Guide.
+   - He restores the Totemic Spirit Charm (Legacy) (ID 720505)
+
+This flow restores the classic shamanic subquest using historically accurate
+NPCs, items, and dialogue.
+
+

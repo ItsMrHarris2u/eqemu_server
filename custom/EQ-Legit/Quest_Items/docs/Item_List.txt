@@ -150,3 +150,24 @@ Coldain Insignia (Legacy) (ID 720405)
 - Final reward for completing the quest.
 
 
+----------------------------------------
+Shaman Epic Subquest — Item List
+----------------------------------------
+
+Totemic Fragment (ID 720501)
+- A fragment of a totemic relic.
+
+Spiritbound Relic (ID 720502)
+- Dropped by the Spiritbound Guardian.
+
+Ancestral Totem (ID 720503)
+- A totem used in shamanic rituals.
+
+Blessed Spirit Oil (ID 720504)
+- A sacred oil used in ancestral rites.
+
+Totemic Spirit Charm (Legacy) (ID 720505)
+- The restored legacy charm.
+- Final reward for completing the subquest.
+
+
