@@ -1,0 +1,13 @@
+CT Mosquito Restoration — Summary
+NPCs Restored:
+- a mosquito (ID 700001), Level 18
+- a bloodthirsty mosquito (ID 700002), Level 20
+- a giant mosquito (ID 700003), Level 22
+Spawn Areas:
+- Swamp Entry (3 spawns)
+- Outer Temple (4 spawns)
+Respawn Time:
+- 16 minutes
+Loot:
+- Unified Rubicite lootdrop (ID 940001)
+- Loottable ID 950001
