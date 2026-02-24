@@ -32,6 +32,7 @@ Shaman Epic Subquest
 
 Each NPC is documented in the quest flow and restored using classic-era data.
 
+
 ----------------------------------------
 Ghoulbane Quest — NPC List
 ----------------------------------------
@@ -50,3 +51,24 @@ Spirit of Miragul (ID 710003)
 - Zone: Everfrost Peaks (Miragul’s cave)
 - Role: Provides lore and quest hints.
 - Non-hostile dialogue NPC.
+
+
+----------------------------------------
+Thex Mallet Quest — NPC List
+----------------------------------------
+
+Thexian Priest (ID 720101)
+- Zone: Nektulos Forest
+- Role: Quest giver and final turn-in NPC.
+
+Thexian Shadowknight (ID 720102)
+- Zone: Nektulos Forest
+- Role: Drops the Thexian Relic.
+- Hostile undead knight.
+
+Thexian Spirit (ID 720103)
+- Zone: Nektulos Forest
+- Role: Provides lore and quest hints.
+- Non-hostile dialogue NPC.
+
+

@@ -36,6 +36,7 @@ Step 7 — In-Game Testing
 
 If all checks pass, the Quest Items Module is fully operational.
 
+
 ----------------------------------------
 Ghoulbane Quest — Verification Steps
 ----------------------------------------
@@ -71,3 +72,41 @@ In-Game Verification
 5. Confirm Ghoulbane (Pre-Nerf) is rewarded.
 
 If all steps succeed, the Ghoulbane quest is fully restored.
+
+
+----------------------------------------
+Thex Mallet Quest — Verification Steps
+----------------------------------------
+
+SQL Verification
+----------------
+1. Verify items:
+   SELECT id, name FROM items
+   WHERE id BETWEEN 720101 AND 720105;
+
+2. Verify NPCs:
+   SELECT id, name FROM npc_types
+   WHERE id BETWEEN 720101 AND 720103;
+
+3. Verify spawns:
+   SELECT npc_id, x, y, z FROM spawn2
+   WHERE npc_id BETWEEN 720101 AND 720103;
+
+4. Verify turn-ins:
+   SELECT * FROM quest_turnins
+   WHERE npc_id = 720101;
+
+5. Verify scripts:
+   SELECT * FROM npc_scripts
+   WHERE npc_id IN (720102, 720103);
+
+In-Game Verification
+--------------------
+1. Confirm all three NPCs spawn in Nektulos.
+2. Kill the Shadowknight and verify the relic drops.
+3. Turn in all four quest items to the Priest.
+4. Confirm Thex Mallet (Legacy) is rewarded.
+
+If all steps succeed, the Thex Mallet quest is fully restored.
+
+

@@ -17,6 +17,7 @@ Quest Flow Summary:
 This flow preserves classic authenticity while ensuring quests remain
 solo-friendly and time-realistic for modern players.
 
+
 ----------------------------------------
 Ghoulbane Quest — Quest Flow
 ----------------------------------------
@@ -41,3 +42,28 @@ Ghoulbane Quest — Quest Flow
 
 This quest flow restores the classic Ghoulbane reforging process using
 historically accurate NPCs, items, and dialogue.
+
+
+----------------------------------------
+Thex Mallet Quest — Quest Flow
+----------------------------------------
+
+1. Speak with the Thexian Priest in Nektulos Forest.
+   - He explains the ritual required to restore the Thex Mallet.
+
+2. Travel to the Thexian ruins and locate the Shadowknight.
+   - Defeat him and loot the Thexian Relic (ID 720102).
+
+3. Acquire the remaining components:
+   - Thexian Token (ID 720101)
+   - Blessed Mallet Head (ID 720103)
+   - Purified Mallet Shaft (ID 720104)
+
+4. Return all four items to the Thexian Priest.
+   - He reforges the mallet and rewards:
+     Thex Mallet (Legacy) (ID 720105)
+
+This flow restores the classic Thexian ritual using historically accurate NPCs,
+items, and dialogue.
+
+

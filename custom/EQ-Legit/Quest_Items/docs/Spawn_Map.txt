@@ -26,6 +26,7 @@ Respawn Timers:
 
 These placements reflect classic-era behavior and support restored quest flows.
 
+
 ----------------------------------------
 Ghoulbane Quest — Spawn Map
 ----------------------------------------
@@ -49,3 +50,25 @@ Everfrost Peaks — Miragul’s Cave
 
 These placements reflect classic-era quest behavior and support the restored
 Ghoulbane quest flow.
+
+
+----------------------------------------
+Thex Mallet Quest — Spawn Map
+----------------------------------------
+
+Nektulos Forest
+- Thexian Priest
+  Location: (-350, -900, 5)
+  Respawn: Static
+
+- Thexian Shadowknight
+  Location: (-500, -1100, 10)
+  Respawn: 18 minutes
+
+- Thexian Spirit
+  Location: (-520, -1120, 10)
+  Respawn: 6 minutes
+
+These placements reflect classic-era Thexian lore and support the restored quest.
+
+
