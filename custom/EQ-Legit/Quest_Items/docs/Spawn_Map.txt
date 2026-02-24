@@ -94,3 +94,21 @@ Ocean of Tears — Pirate Ship
   Event-based spawns triggered by Captain Nalot dialogue.
   
   
+----------------------------------------
+Summoning of Terror — Spawn Map
+----------------------------------------
+
+Plane of Fear
+
+- Ritual Conductor
+  Location: (450, -200, 5)
+  Respawn: Static
+
+- Terror Acolyte
+  Location: (380, -250, 5)
+  Respawn: 18 minutes
+
+- Terror Shade
+  Event-based spawn triggered by ritual turn-in.
+  
+  

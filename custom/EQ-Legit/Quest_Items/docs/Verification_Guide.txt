@@ -147,3 +147,40 @@ In-Game Verification
 If all steps succeed, the Pirate Ship Quest is fully restored.
 
 
+----------------------------------------
+Summoning of Terror — Verification Steps
+----------------------------------------
+
+SQL Verification
+----------------
+1. Verify items:
+   SELECT id, name FROM items
+   WHERE id BETWEEN 720301 AND 720305;
+
+2. Verify NPCs:
+   SELECT id, name FROM npc_types
+   WHERE id BETWEEN 720301 AND 720303;
+
+3. Verify spawns:
+   SELECT npc_id, x, y, z FROM spawn2
+   WHERE npc_id BETWEEN 720301 AND 720302;
+
+4. Verify turn-ins:
+   SELECT * FROM quest_turnins
+   WHERE npc_id = 720301;
+
+5. Verify scripts:
+   SELECT * FROM npc_scripts
+   WHERE npc_id IN (720301, 720302, 720303);
+
+In-Game Verification
+--------------------
+1. Confirm Ritual Conductor and Terror Acolyte spawn in Plane of Fear.
+2. Kill the Acolyte and verify the essence drops.
+3. Turn in all four ritual items.
+4. Confirm the Terror Shade spawns.
+5. Say "ready" to the Shade and verify the mask reward.
+
+If all steps succeed, the Summoning of Terror quest is fully restored.
+
+

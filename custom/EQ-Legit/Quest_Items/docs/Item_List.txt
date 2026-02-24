@@ -108,3 +108,24 @@ Nalot’s Cutlass (Legacy) (ID 720205)
 - Final reward for completing the quest.
 
 
+----------------------------------------
+Summoning of Terror — Item List
+----------------------------------------
+
+Ritual Bloodstone (ID 720301)
+- A bloodstone used in forbidden rituals.
+
+Fear-Tainted Essence (ID 720302)
+- Dropped by the Terror Acolyte.
+
+Idol of Dread (ID 720303)
+- A carved idol used to invoke terror.
+
+Binding Sigil (ID 720304)
+- A sigil used to stabilize the ritual.
+
+Terror Forged Mask (Legacy) (ID 720305)
+- The restored legacy mask.
+- Final reward for completing the ritual.
+
+

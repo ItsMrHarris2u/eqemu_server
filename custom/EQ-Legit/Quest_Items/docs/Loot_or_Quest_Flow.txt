@@ -89,3 +89,29 @@ This quest restores the classic pirate ship storyline using historically accurat
 NPCs, items, and event logic.
 
 
+----------------------------------------
+Summoning of Terror — Quest Flow
+----------------------------------------
+
+1. Speak with the Ritual Conductor in the Plane of Fear.
+   - He explains the forbidden ritual to summon terror.
+
+2. Defeat the Terror Acolyte.
+   - Loot Fear-Tainted Essence (ID 720302).
+
+3. Acquire the remaining components:
+   - Ritual Bloodstone (ID 720301)
+   - Idol of Dread (ID 720303)
+   - Binding Sigil (ID 720304)
+
+4. Return all four items to the Ritual Conductor.
+   - He initiates the ritual and summons the Terror Shade.
+
+5. Speak with the Terror Shade.
+   - Say "ready" to receive:
+     Terror Forged Mask (Legacy) (ID 720305)
+
+This flow restores the classic ritual using historically accurate NPCs,
+items, and event logic.
+
+

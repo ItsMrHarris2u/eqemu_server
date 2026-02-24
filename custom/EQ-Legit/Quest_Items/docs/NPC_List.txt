@@ -93,3 +93,20 @@ Ghostly Navigator (ID 720204)
 - Role: Provides lore and quest hints.
 
 
+----------------------------------------
+Summoning of Terror — NPC List
+----------------------------------------
+
+Ritual Conductor (ID 720301)
+- Zone: Plane of Fear
+- Role: Quest giver and ritual initiator.
+
+Terror Acolyte (ID 720302)
+- Zone: Plane of Fear
+- Role: Drops Fear-Tainted Essence.
+
+Terror Shade (ID 720303)
+- Zone: Plane of Fear
+- Role: Ritual spawn and reward NPC.
+
+
