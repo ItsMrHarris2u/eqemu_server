@@ -26,13 +26,25 @@ obtainable again. It does **not** attempt to restore every classic quest in the
 game. Only quests tied directly to legacy items from the EQ‑Legit master list
 are included.
 
-Current restored quests:
-- Ghoulbane Quest
-- Thex Mallet Quest
-- Pirate Ship Quest
-- Summoning of Terror
-- Coldain/Iceclad Quest
-- Shaman Epic Subquest
+### ✔ Completed Restored Quests
+
+**1. Ghoulbane Quest**  
+Restores the classic reforging of Ghoulbane using Miragul’s relics and Sir Ariam’s ritual.
+
+**2. Thex Mallet Quest**  
+Rebuilds the Thexian ritual involving the Priest, Shadowknight, and Spirit.
+
+**3. Pirate Ship Quest**  
+Restores Captain Nalot’s ship event, pirate crew spawns, and Nalot’s Cutlass (Legacy).
+
+**4. Summoning of Terror**  
+Recreates the forbidden ritual in the Plane of Fear, culminating in the Terror Forged Mask (Legacy).
+
+**5. Coldain/Iceclad Quest**  
+Restores the Coldain relic recovery quest involving the Hermit and Coldain Emissary.
+
+**6. Shaman Epic Subquest**  
+Rebuilds the ancestral spirit trial required for the Totemic Spirit Charm (Legacy).
 
 Each quest is fully documented and implemented using modular SQL and
 quest-specific documentation files.
@@ -46,13 +58,13 @@ quest-specific documentation files.
 		01_items.sql
 		02_npc_types.sql
 		03_spawns.sql
-		04_scripts.sql
-		05_turnins.sql
-		06_rewards.sql
-		07_factions.sql
-		08_cleanup.sql
-		09_verification.sql
-		10_reserved.sql
+		04_lootdrops.sql
+		05_lootdrop_entries.sql
+		06_loottables.sql
+		07_loottable_links.sql
+		08_turnins_rewards.sql
+		09_scripts.sql
+		10_verification.sql
 	/docs/
 		Module_Overview.txt
 		Item_List.txt
@@ -61,17 +73,15 @@ quest-specific documentation files.
 		Quest_Flow.txt
 		Verification_Guide.txt
 
+
 ### SQL File Purposes
 - **01_items.sql** — Quest items, reward items, missing classic items  
 - **02_npc_types.sql** — Missing quest NPCs  
 - **03_spawns.sql** — Spawn points for quest NPCs  
-- **04_scripts.sql** — Perl/Lua quest scripts  
-- **05_turnins.sql** — Turn-in logic and item checks  
-- **06_rewards.sql** — Reward tables for legacy items  
-- **07_factions.sql** — Faction adjustments (if required)  
-- **08_cleanup.sql** — Removal of conflicting modern content  
-- **09_verification.sql** — SQL validation queries  
-- **10_reserved.sql** — Future expansion  
+- **04–07** — Reserved for loot-related structures (kept for module alignment)  
+- **08_turnins_rewards.sql** — Turn-in logic and reward tables  
+- **09_scripts.sql** — Quest scripts, dialogue, event logic  
+- **10_verification.sql** — SQL validation queries  
 
 
 ## 🧭 Design Philosophy
