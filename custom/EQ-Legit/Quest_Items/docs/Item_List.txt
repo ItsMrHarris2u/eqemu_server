@@ -1,0 +1,64 @@
+EQ‑Legit — Quest Items Module
+Item List
+
+This file lists all legacy items restored through classic quest flows. These
+items were originally obtained through NPC dialogue, turn-ins, or scripted
+events rather than loot tables.
+
+Current restored quest items:
+
+Ghoulbane Quest
+- Ghoulbane (pre-nerf variant)
+- Soulfire components
+- Paladin quest tokens
+
+Thex Mallet Quest
+- Thex Mallet
+- Thexian relics
+- Quest-specific turn-in items
+
+Pirate Ship Quest
+- Pirate Medallion
+- Ship Key
+- Legacy quest reward item
+
+Summoning of Terror
+- Terror Totem
+- Ritual components
+- Legacy quest reward item
+
+Coldain/Iceclad Quest
+- Coldain Insignia
+- Iceclad relics
+- Legacy quest reward item
+
+Shaman Epic Subquest
+- Totemic quest items
+- Spirit-bound relics
+- Legacy quest reward item
+
+Additional quest items will be added as more legacy quests are restored.
+
+----------------------------------------
+Ghoulbane Quest — Item List
+----------------------------------------
+
+Ghoulbane Token (ID 720001)
+- A quest token used by Sir Ariam Arcanum.
+- Required for reforging Ghoulbane.
+
+Miragul's Fragment (ID 720002)
+- A fragment of Miragul’s shattered phylactery.
+- Dropped by the Lich of Miragul.
+
+Purified Hilt (ID 720003)
+- A blessed hilt used in reforging Ghoulbane.
+- Obtained through quest progression.
+
+Blessed Oil (ID 720004)
+- Holy oil used in the Ghoulbane ritual.
+- Required for the final turn-in.
+
+Ghoulbane (Pre-Nerf) (ID 720005)
+- The restored classic variant of Ghoulbane.
+- Final reward for completing the quest.

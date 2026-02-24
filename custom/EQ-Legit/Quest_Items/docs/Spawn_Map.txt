@@ -1,0 +1,51 @@
+EQ‑Legit — Quest Items Module
+Spawn Map
+
+This file documents the spawn locations for quest NPCs restored by this module.
+Only NPCs whose spawns were missing or incomplete are included.
+
+Example spawn locations:
+
+Everfrost Peaks
+- Spiritbound Ancestor: (-1200, 450, -10)
+- Totemic Guide: (-980, 600, -5)
+
+Ocean of Tears
+- Captain Nalot: (1200, -800, 15)
+- Pirate Crew: Event-based spawns on ship deck
+
+Iceclad Ocean
+- Iceclad Hermit: (3500, -2200, 5)
+
+Toxxulia Forest
+- Thexian Priest: (900, -300, 10)
+
+Respawn Timers:
+- Standard quest NPCs: 6 minutes
+- Event NPCs: Script-controlled
+
+These placements reflect classic-era behavior and support restored quest flows.
+
+----------------------------------------
+Ghoulbane Quest — Spawn Map
+----------------------------------------
+
+Qeynos Hills
+- Sir Ariam Arcanum
+  Location: (2200, -120, 5)
+  Heading: 180
+  Respawn: Static
+
+Everfrost Peaks — Miragul’s Cave
+- Lich of Miragul
+  Location: (-1120, 540, -20)
+  Heading: 90
+  Respawn: 22 minutes
+
+- Spirit of Miragul
+  Location: (-1150, 600, -18)
+  Heading: 45
+  Respawn: 6 minutes
+
+These placements reflect classic-era quest behavior and support the restored
+Ghoulbane quest flow.

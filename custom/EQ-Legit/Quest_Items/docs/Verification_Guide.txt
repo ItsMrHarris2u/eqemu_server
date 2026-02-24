@@ -1,0 +1,73 @@
+EQ‑Legit — Quest Items Module
+Verification Guide
+
+This guide explains how to verify that the Quest Items Module is correctly
+installed and functioning.
+
+Step 1 — Verify Items
+SELECT id, name FROM items
+WHERE id IN (list of restored quest item IDs);
+
+Step 2 — Verify NPC Types
+SELECT id, name FROM npc_types
+WHERE id IN (list of restored quest NPC IDs);
+
+Step 3 — Verify Spawns
+SELECT id, npc_id, x, y, z
+FROM spawn2
+WHERE npc_id IN (list of restored quest NPC IDs);
+
+Step 4 — Verify Turn-ins
+SELECT * FROM quest_globals
+WHERE name LIKE '%quest%';
+
+Step 5 — Verify Rewards
+SELECT * FROM quest_rewards
+WHERE item_id IN (list of legacy reward IDs);
+
+Step 6 — Verify Scripts
+Check that restored NPCs respond to dialogue and turn-ins.
+
+Step 7 — In-Game Testing
+- Complete each quest step
+- Confirm NPC dialogue triggers correctly
+- Confirm turn-ins accept correct items
+- Confirm legacy items are rewarded properly
+
+If all checks pass, the Quest Items Module is fully operational.
+
+----------------------------------------
+Ghoulbane Quest — Verification Steps
+----------------------------------------
+
+SQL Verification
+----------------
+1. Verify items:
+   SELECT id, name FROM items
+   WHERE id BETWEEN 720001 AND 720005;
+
+2. Verify NPCs:
+   SELECT id, name FROM npc_types
+   WHERE id BETWEEN 710001 AND 710003;
+
+3. Verify spawns:
+   SELECT npc_id, x, y, z FROM spawn2
+   WHERE npc_id BETWEEN 710001 AND 710003;
+
+4. Verify turn-ins:
+   SELECT * FROM quest_turnins
+   WHERE npc_id = 710001;
+
+5. Verify scripts:
+   SELECT * FROM npc_scripts
+   WHERE npc_id IN (710002, 710003);
+
+In-Game Verification
+--------------------
+1. Confirm Sir Ariam spawns in Qeynos Hills.
+2. Confirm Spirit of Miragul and Lich of Miragul spawn in Everfrost.
+3. Kill the Lich and verify Miragul’s Fragment drops.
+4. Turn in all four quest items to Sir Ariam.
+5. Confirm Ghoulbane (Pre-Nerf) is rewarded.
+
+If all steps succeed, the Ghoulbane quest is fully restored.

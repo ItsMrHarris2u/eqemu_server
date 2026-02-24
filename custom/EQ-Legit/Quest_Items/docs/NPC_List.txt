@@ -1,0 +1,52 @@
+EQ‑Legit — Quest Items Module
+NPC List
+
+This file lists all NPCs restored or modified to support quest-based legacy
+item restoration. Only NPCs directly tied to legacy quest flows are included.
+
+Example NPC entries:
+
+Ghoulbane Quest
+- Sir Ariam Arcanum (restored dialogue and turn-ins)
+- Lich of Miragul (restored quest drop and script)
+
+Thex Mallet Quest
+- Thexian Shadowknight (restored turn-in logic)
+- Thexian Priest (restored dialogue)
+
+Pirate Ship Quest
+- Captain Nalot (restored quest script)
+- Pirate Crew (restored event triggers)
+
+Summoning of Terror
+- Ritual Conductor (restored spawn and script)
+- Terror Shade (restored quest reward logic)
+
+Coldain/Iceclad Quest
+- Coldain Emissary (restored dialogue)
+- Iceclad Hermit (restored turn-in)
+
+Shaman Epic Subquest
+- Spiritbound Ancestor (restored script)
+- Totemic Guide (restored quest flow)
+
+Each NPC is documented in the quest flow and restored using classic-era data.
+
+----------------------------------------
+Ghoulbane Quest — NPC List
+----------------------------------------
+
+Sir Ariam Arcanum (ID 710001)
+- Zone: Qeynos Hills
+- Role: Quest giver and final turn-in NPC.
+- Provides lore and reforges Ghoulbane.
+
+Lich of Miragul (ID 710002)
+- Zone: Everfrost Peaks (Miragul’s cave)
+- Role: Drops Miragul’s Fragment.
+- High-level undead caster.
+
+Spirit of Miragul (ID 710003)
+- Zone: Everfrost Peaks (Miragul’s cave)
+- Role: Provides lore and quest hints.
+- Non-hostile dialogue NPC.

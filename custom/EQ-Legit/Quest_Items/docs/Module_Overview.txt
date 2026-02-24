@@ -1,0 +1,18 @@
+EQ‑Legit — Quest Items Module
+Module Overview
+
+The Quest Items Module restores legacy items that were originally obtained
+through classic EverQuest quests. Many of these quests were partially removed,
+broken, or left incomplete in modern EQEmu databases, leaving their associated
+legacy items unobtainable.
+
+This module reintroduces:
+- Missing quest NPCs and classic quest items
+- Turn-in logic and reward flows
+- Quest scripts and dialogue
+- Correct faction adjustments (when required)
+- Historically accurate quest progression
+
+The Quest Items Module does not modify loot tables or rebuild orphaned NPC
+ecosystems. It focuses exclusively on restoring quest-based legacy items using
+clean, modular SQL and fully documented quest flows.

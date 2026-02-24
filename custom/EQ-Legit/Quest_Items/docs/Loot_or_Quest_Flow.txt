@@ -1,0 +1,43 @@
+EQ‑Legit — Quest Items Module
+Quest Flow
+
+This file explains how each restored quest functions within the EQ-Legit
+framework. It documents the intended progression, required items, NPC dialogue,
+turn-ins, and reward logic.
+
+Quest Flow Summary:
+1. Identify legacy items originally obtained through quests.
+2. Restore missing NPCs, dialogue, and quest items.
+3. Rebuild turn-in logic using classic item checks.
+4. Recreate reward tables for legacy items.
+5. Restore faction adjustments when historically required.
+6. Validate all quest steps using 10_verification.sql.
+7. Perform in-game testing to ensure correct progression.
+
+This flow preserves classic authenticity while ensuring quests remain
+solo-friendly and time-realistic for modern players.
+
+----------------------------------------
+Ghoulbane Quest — Quest Flow
+----------------------------------------
+
+1. Speak with Sir Ariam Arcanum in Qeynos Hills.
+   - He explains the history of Ghoulbane and the need to reforge it.
+
+2. Travel to Everfrost Peaks and locate Miragul’s cave.
+   - Speak with the Spirit of Miragul for lore and hints.
+
+3. Defeat the Lich of Miragul.
+   - Loot Miragul’s Fragment (ID 720002).
+
+4. Acquire the remaining components:
+   - Ghoulbane Token (ID 720001)
+   - Purified Hilt (ID 720003)
+   - Blessed Oil (ID 720004)
+
+5. Return all four items to Sir Ariam Arcanum.
+   - He reforges Ghoulbane and rewards:
+     Ghoulbane (Pre-Nerf) (ID 720005)
+
+This quest flow restores the classic Ghoulbane reforging process using
+historically accurate NPCs, items, and dialogue.
