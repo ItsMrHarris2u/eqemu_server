@@ -1,0 +1,23 @@
+EQ‑Legit — EverQuest Legacy Item Restoration Project
+CT Mosquito Restoration Module — Spawn Locations Map
+
+Mosquito spawns are placed in their classic-era positions within Cazic‑Thule.
+These locations reinforce the intended danger curve of early CT while keeping
+the ecosystem clean and non-intrusive.
+
+Swamp Entry (3 spawns):
+- (-350, 150, 5)
+- (-375, 175, 5)
+- (-325, 125, 5)
+
+Outer Temple (4 spawns):
+- (-200, 300, 10)
+- (-225, 325, 10)
+- (-250, 350, 10)
+- (-275, 375, 10)
+
+Respawn Timer:
+- 16 minutes (classic pacing)
+
+These placements restore the original ambient threat and support the Rubicite
+drop ecosystem without interfering with existing CT NPCs.

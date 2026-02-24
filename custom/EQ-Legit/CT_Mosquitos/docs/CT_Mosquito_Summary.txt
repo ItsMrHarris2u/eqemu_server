@@ -1,0 +1,22 @@
+EQ‑Legit — EverQuest Legacy Item Restoration Project
+CT Mosquito Restoration Module — Summary
+
+The CT Mosquito Restoration Module restores the classic mosquito ecosystem
+originally found in the swamp-entry and outer-temple regions of Cazic‑Thule.
+These NPCs were removed in later database revisions, which disrupted both the
+zone’s ecology and the Rubicite drop system.
+
+This module reintroduces:
+- Three classic mosquito NPCs
+- Classic spawn locations
+- Classic level ranges
+- A unified Rubicite lootdrop
+- Clean, modular SQL
+- Zero interference with existing CT NPCs
+
+NPCs restored:
+- a mosquito (ID 700001, level 18)
+- a bloodthirsty mosquito (ID 700002, level 20)
+- a giant mosquito (ID 700003, level 22)
+
+All content is fully isolated under /EQ-Legit/CT_Mosquitos/.

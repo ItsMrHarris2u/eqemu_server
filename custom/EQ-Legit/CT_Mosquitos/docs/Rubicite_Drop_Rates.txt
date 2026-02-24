@@ -1,0 +1,26 @@
+EQ‑Legit — EverQuest Legacy Item Restoration Project
+CT Mosquito Restoration Module — Rubicite Drop Rates
+
+All restored mosquito NPCs share a unified Rubicite lootdrop that mirrors
+classic-era distribution while following EQ‑Legit rarity rules.
+
+Lootdrop ID:
+- 940001 — Rubicite_Mosquito_Drops
+
+Loottable ID:
+- 950001 — Mosquito_Rubicite_LT
+
+Drop Rates (EQ‑Legit Standard):
+- Rubicite Breastplate .......... 2.5%
+- Rubicite Greaves .............. 5%
+- Rubicite Gauntlets ............ 5%
+- Rubicite Helm ................. 5%
+- Rubicite Vambraces ............ 10%
+- Rubicite Bracers .............. 15%
+- Rubicite Mask ................. 5%
+- Rubicite Pauldron ............. 5%
+- Rubicite Collar ............... 10%
+- Rubicite Waistband ............ 10%
+
+These values preserve classic rarity while ensuring Rubicite remains attainable
+for solo players and small groups without excessive grind.

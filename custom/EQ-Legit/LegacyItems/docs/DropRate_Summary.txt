@@ -1,0 +1,37 @@
+EQ‑Legit — EverQuest Legacy Item Restoration Project
+Legacy Items Module — Drop Rate Summary
+
+Drop rates follow the EQ‑Legit standard:
+- Minimum drop rate: 2.5%
+- Common items: 10–15%
+- Rare items: 2.5–5%
+- No museum-piece rarity
+- Solo-friendly, time-realistic tuning
+
+Lower Guk:
+- Cloak of Imperception ............. 5%
+- Golem Metal Wand .................. 5%
+- Mosscovered Twig .................. 2.5%
+- Runed Fighters Staff .............. 5%
+- Scourgetail Whip .................. 10%
+- Rod of Mourning ................... 10%
+- Warding Star ...................... 10%
+
+SolA / SolB:
+- Goblin Eye Poker .................. 5%
+- Ornate Dagger ..................... 5%
+- Wurmslayer ........................ 5%
+
+Lustrous Russet Armor:
+- Breastplate ....................... 2.5%
+- Greaves ........................... 5%
+- Gauntlets ......................... 5%
+- Helm .............................. 5%
+- Vambraces ......................... 10%
+- Bracers ........................... 15%
+
+Velious Outdoor Named:
+- Heartstone Amulet ................. 5%
+- Illusionist’s Stone ............... 5%
+- Incarnadine Breastplate ........... 5%
+- Locket of Escape .................. 10%
