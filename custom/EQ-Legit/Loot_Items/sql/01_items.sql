@@ -1,0 +1,6 @@
+-- ============================================
+-- EQ-Legit
+-- Legacy Items Module
+-- 01_items.sql
+-- (No custom items required for this module)
+-- ============================================

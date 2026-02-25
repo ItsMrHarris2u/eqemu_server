@@ -1,0 +1,6 @@
+-- ============================================
+-- EQ-Legit
+-- CT Mosquito Restoration Module
+-- 01_items.sql
+-- (No custom items required for this module)
+-- ============================================

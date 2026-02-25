@@ -1,0 +1,6 @@
+-- ============================================
+-- EQ-Legit
+-- Legacy Items Module
+-- 02_npc_types.sql
+-- (No NPC type definitions required)
+-- ============================================

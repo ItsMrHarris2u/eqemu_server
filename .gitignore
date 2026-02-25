@@ -13,7 +13,7 @@ logs/
 
 # --- Backups & Database Dumps ---
 backups/
-*.sql
+#*.sql
 *.sql.gz
 *.bak
 
