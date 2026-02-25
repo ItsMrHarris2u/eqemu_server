@@ -2,28 +2,67 @@ EQ‑Legit — Loot Items Module
 Item List
 
 This file lists all legacy items restored through NPC loot tables. Each item
-includes its classic drop source and its modernized EQ-Legit drop rate tier.
+includes its correct historical drop source and its modernized EQ‑Legit drop
+rate tier.
 
-Example entries:
+------------------------------------------------------------
+Kunark Legacy Loot
+------------------------------------------------------------
 
-Rubicite Armor Set
-- Breastplate .......... 2.5%
-- Greaves .............. 5%
-- Gauntlets ............ 5%
-- Helm ................. 5%
-- Vambraces ............ 10%
-- Bracers .............. 15%
-- Mask ................. 5%
-- Pauldron ............. 5%
-- Collar ............... 10%
-- Waistband ............ 10%
+Circlet of Shadow (Pre‑Nerf) — 2.5%
+- Drop Source: a goblin bodyguard (Temple of Droga)
+- Notes: Instant‑click version removed early in Velious. Not to be confused
+  with "Circlet of Shadows" from Najena.
 
-Singing Steel (Classic)
-- Greaves .............. 5%
-- Vambraces ............ 10%
-- Bracers .............. 15%
-- Helm ................. 5%
-- Gauntlets ............ 5%
+------------------------------------------------------------
+Classic — Lower Guk
+------------------------------------------------------------
+
+Cloak of Imperception ............... 5%
+Golem Metal Wand .................... 5%
+Mosscovered Twig .................... 2.5%
+Runed Fighters Staff ................ 5%
+Scourgetail Whip .................... 10%
+Rod of Mourning ..................... 10%
+Warding Star ........................ 10%
+
+------------------------------------------------------------
+Classic — SolA / SolB
+------------------------------------------------------------
+
+Goblin Eye Poker .................... 5%
+Ornate Dagger ....................... 5%
+Wurmslayer .......................... 5%
+
+------------------------------------------------------------
+Classic — Lustrous Russet Armor Set
+------------------------------------------------------------
+
+Breastplate ......................... 2.5%
+Greaves ............................. 5%
+Gauntlets ........................... 5%
+Helm ................................ 5%
+Vambraces ........................... 10%
+Bracers ............................. 15%
+
+------------------------------------------------------------
+Velious Outdoor / Named
+------------------------------------------------------------
+
+Heartstone Amulet ................... 5%
+Illusionist’s Stone ................. 5%
+Incarnadine Breastplate ............. 5%
+Locket of Escape .................... 10%
+
+------------------------------------------------------------
+Notes
+------------------------------------------------------------
+
+All drop rates follow the EQ‑Legit rarity tiers:
+- 2.5%  = Legacy Rare (minimum)
+- 5%    = Rare
+- 10%   = Uncommon
+- 15%   = Common
 
 Additional legacy loot items are documented in the SQL files and restored
-according to the EQ-Legit rarity rules.
+according to the EQ‑Legit rarity rules and historical accuracy standards.

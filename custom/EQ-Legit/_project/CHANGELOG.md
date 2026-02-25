@@ -1,32 +1,52 @@
-# EQ‑Legit — Changelog
+EQ‑Legit — Loot Items Module
+Change Log
 
-This file documents all meaningful changes to the EQ‑Legit project, including
-module additions, structural updates, and SQL refactors.
+This file records all revisions, corrections, and structural updates made to
+the Loot Items Module. Entries are listed in reverse chronological order.
 
----
+------------------------------------------------------------
+2026‑02‑24 — Circlet of Shadow (Pre‑Nerf) Correction
+------------------------------------------------------------
 
-## [0.3.0] — Module Renaming & Standardized Documentation
-- Renamed modules for clearer taxonomy:
-  - LegacyItems → Loot_Items
-  - Quest_Restoration → Quest_Items
-  - CT_Mosquitos → Orphan_Items
-- Standardized /docs structure across all modules
-- Updated all README headers to reflect new naming
-- Improved project-level documentation
+• Corrected the historical drop source for Circlet of Shadow (Item ID 2308).
+  - Old (incorrect): Undead Foreman (The Overthere) / Najena confusion
+  - New (correct): a goblin bodyguard (Temple of Droga)
 
----
+• Added new lootdrop, loottable, and loottable link:
+  - lootdrop_id: 900201
+  - loottable_id: 930201
 
-## [0.2.0] — LegacyItems + CT Mosquitos Rebuild
-- Fully normalized SQL for both modules using 01–10 structure
-- Reintroduced CT mosquito ecosystem (orphan NPCs)
-- Restored Rubicite drop system with EQ-Legit rarity tiers
-- Added complete documentation sets for both modules
-- Updated GitHub folder structure for clarity and scalability
+• Updated drop rate to 2.5% (EQ‑Legit legacy minimum).
 
----
+• Updated documentation:
+  - Module_Overview.txt
+  - Item_List.txt
+  - Notes.txt
 
-## [0.1.0] — Initial Project Setup
-- Created EQ‑Legit repository structure
-- Added initial LegacyItems module
-- Added project-level documentation placeholders
-- Established SQL numbering standard (01–10)
+• Verified item ID alignment with classic Kunark-era database lineage.
+
+------------------------------------------------------------
+2026‑02‑23 — Initial Legacy Loot Integration
+------------------------------------------------------------
+
+• Added all Classic-era legacy loot items from the EQ‑Legit master list.
+• Implemented standardized rarity tiers (2.5%, 5%, 10%, 15%).
+• Created modular SQL structure (01–10) for Loot Items Module.
+• Added documentation files:
+  - Module_Overview.txt
+  - Item_List.txt
+
+------------------------------------------------------------
+2026‑02‑22 — Module Initialization
+------------------------------------------------------------
+
+• Created Loot Items Module folder structure:
+  - /sql
+  - /docs
+
+• Established ID ranges:
+  - 900xxx — Special / Kunark legacy lootdrops
+  - 920xxx — Classic lootdrops
+  - 930xxx — Loottables
+
+• Added initial schema and verification scaffolding.

@@ -4,15 +4,25 @@ Module Overview
 The Loot Items Module restores all legacy items that were originally obtained
 through NPC loot tables. These items were removed, deprecated, or altered in
 later database revisions, resulting in broken drop ecosystems and missing
-classic-era loot paths.
+classic- and Kunark-era loot paths.
 
 This module reintroduces:
-- All loot-based legacy items from the EQ-Legit master list
-- Correct classic NPC drop sources
-- Clean, normalized drop rates using the EQ-Legit rarity tiers
+- All loot-based legacy items from the EQ‑Legit master list
+- Correct classic and Kunark NPC drop sources
+- Clean, normalized drop rates using the EQ‑Legit rarity tiers
 - Modular SQL using the universal 01–10 structure
 - Documentation for long-term maintainability
 
+Kunark Corrections
+------------------
+This module includes the corrected restoration of the pre‑nerf Circlet of Shadow
+(Item ID 2308), historically confirmed to drop from a goblin bodyguard in the
+Temple of Droga. This replaces earlier incorrect assumptions about Najena or
+The Overthere and aligns EQ‑Legit with verified Kunark-era behavior.
+
+Scope
+-----
 The Loot Items Module does not modify quests, scripts, or faction systems.
 It focuses exclusively on restoring loot-based legacy items in a clean,
-authentic, and solo-friendly manner.
+authentic, and solo-friendly manner, ensuring that historically significant
+items remain obtainable through accurate and well-documented NPC sources.

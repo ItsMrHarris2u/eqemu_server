@@ -1,0 +1,53 @@
+EQ‑Legit — Loot Items Module
+Notes & Historical Corrections
+
+This file documents corrections, clarifications, and historical notes related
+to legacy loot restoration. It serves as a long-term reference for decisions
+made during the reconstruction of classic and Kunark-era loot ecosystems.
+
+------------------------------------------------------------
+Correction: Circlet of Shadow (Pre‑Nerf)
+------------------------------------------------------------
+
+Item ID: 2308
+Status: Restored (Kunark Legacy Loot)
+
+The original drop source for the pre‑nerf Circlet of Shadow has been corrected
+to reflect historically accurate Kunark-era behavior.
+
+Correct Drop Source:
+- a goblin bodyguard
+- Temple of Droga
+- Kunark expansion
+- Drop Rate: 2.5% (EQ‑Legit legacy minimum)
+
+Notes:
+- This is the instant‑click version removed early in Velious.
+- This item never dropped in Najena.
+- This item never dropped from undead foremen in The Overthere.
+- Confusion arises from mixing up:
+    • "Circlet of Shadow"  (Kunark, instant-click, ID 2308)
+    • "Circlet of Shadows" (Classic, Najena, ID 2309)
+- Project 1999 and archived ZAM data both confirm Droga bodyguards as the
+  canonical pre‑nerf source.
+
+EQ‑Legit now reflects the correct Kunark-era drop behavior.
+
+------------------------------------------------------------
+General Notes
+------------------------------------------------------------
+
+• All restored items follow the EQ‑Legit rarity tiers:
+    - 2.5%  = Legacy Rare (minimum)
+    - 5%    = Rare
+    - 10%   = Uncommon
+    - 15%   = Common
+
+• Loot-only legacy items are restored without modifying quests, scripts,
+  or faction systems.
+
+• All loottable and lootdrop IDs follow the standardized 900xxx / 920xxx /
+  930xxx structure for long-term maintainability.
+
+• Additional corrections will be appended to this file as new legacy items
+  are researched, verified, and restored.
